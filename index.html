@@ -3,18 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    /> -->
+    <!-- font family  -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- icons link  -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- css files  -->
     <link rel="stylesheet" href="css/general.css" />
     <link href="css/style.css" rel="stylesheet" />
     <title>OmniFood</title>
@@ -44,7 +50,7 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin--right"
+            <a href="#" class="btn btn--full margin--right-sm"
               >Start Eating Well</a
             >
             <a href="#" class="btn btn--outline">Learn More &darr;</a>
@@ -65,6 +71,23 @@
           <div class="hero-img-box">
             <img src="img/hero.png" class="hero-img" />
           </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <h2 class="heading-featured-in">As featured in</h2>
+        <div class="logos-featured-in">
+          <img src="img/logos/techcrunch.png" alt="techcrunch logo" />
+          <img
+            src="img/logos/the-new-york-times.png"
+            alt="new York times logo"
+          />
+          <img
+            src="img/logos/business-insider.png"
+            alt="business insider logo"
+          />
+          <img src="img/logos/forbes.png" alt="forbes logo" />
+          <img src="img/logos/usa-today.png" alt="usa today logo" />
         </div>
       </section>
 
@@ -133,6 +156,277 @@
               class="step-img"
             />
           </div>
+        </div>
+      </section>
+
+      <section class="section-meals">
+        <div class="container center-text">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">
+            Omnifood AI chooses from 5,000+ recipes
+          </h2>
+        </div>
+        <div class="container grid grid-3-cols margin--bottom-md">
+          <div class="meal">
+            <img
+              src="img/meals/meal-1.jpg"
+              alt="Japanese Gyozas"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame"></ion-icon>
+                  <span><strong>650</strong> Calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="restaurant"></ion-icon
+                  ><spna>NutriScore &reg; <strong>74</strong></spna>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star"></ion-icon
+                  ><span><strong>4.9</strong>Rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <div class="meal">
+              <img
+                src="img/meals/meal-2.jpg"
+                alt="Avocado Salad"
+                class="meal-img"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag--vegan">Vegan</span>
+                  <span class="tag tag--paleo">Paleo</span>
+                </div>
+                <p class="meal-title">Avocado Salad</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame"></ion-icon>
+                    <span><strong>400</strong> Calories</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="restaurant"></ion-icon
+                    ><spna>NutriScore &reg; <strong>92</strong></spna>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star"></ion-icon
+                    ><span><strong>4.8</strong>Rating (441)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Works with any diet</h3>
+            <ul class="list-diets">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Vegan</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Vegetarian</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Pescatarian</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Gluten-free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Lactose-free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Keto</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Paleo</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Low FODMAP</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#" class="link">See all Recipes &rarr; </a>
+        </div>
+      </section>
+
+      <section class="section-testimonial">
+        <div class="testimonial-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, You can't go back!</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                src="img/customers/dave.jpg"
+                alt="testimonial by dave"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                Inexpensive, healthy and great-tasting meals, without even
+                having to order manually! It feels truly magical.
+              </blockquote>
+              <p class="testimonial-name">&mdash;Dave Bryson</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/ben.jpg"
+                alt="testimonial by ben"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                The AI algorithm is crazy good, it chooses the right meals for
+                me every time. It's amazing not to worry about food anymore!
+              </blockquote>
+              <p class="testimonial-name">&mdash;Ben Hadley</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/steve.jpg"
+                alt="testimonial by Steve"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                Omnifood is a life saver! I just started a company, so there's
+                no time for cooking. I couldn't live without my daily meals now!
+              </blockquote>
+              <p class="testimonial-name">&mdash;Steve Miller</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/hannah.jpg"
+                alt="testimonial by Hannah"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                I got Omnifood for the whole family, and it frees up so much
+                time! Plus, everything is organic and vegan and without plastic.
+              </blockquote>
+              <p class="testimonial-name">&mdash;Hannah Smith</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-1.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-2.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-3.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-4.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-5.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-6.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-7.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-8.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-9.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-10.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-11.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
+          <figure class="gallery-items">
+            <img
+              src="img/gallery/gallery-12.jpg"
+              alt="photo of beautifully arranged food"
+            />
+          </figure>
         </div>
       </section>
     </main>
