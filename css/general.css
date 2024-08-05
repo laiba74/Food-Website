@@ -109,6 +109,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid-center-v {
   align-items: center;
 }
@@ -150,6 +154,24 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.btn-form {
+  color: #fdf2e9;
+  background-color: #2e1907;
+  align-self: end;
+  padding: 1.2rem !important;
+}
+
+.btn-form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -158,6 +180,12 @@ body {
   padding: 1.6rem 3.2rem;
   font-size: 2rem;
   font-weight: 600;
+
+  /* only necessary for btn class  */
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+
   /* put transition in original state  */
   transition: all 0.3s;
 }
